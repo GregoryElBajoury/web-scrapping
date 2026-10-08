@@ -1,0 +1,25 @@
+# Python / Venv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Airflow & Logs
+logs/
+airflow.cfg
+unittests.cfg
+webserver_config.py
+
+# Data outputs & exports
+*.csv
+
+# Docker & IDE
+.vscode/
+*.swp
+*.swo
+.DS_Store
